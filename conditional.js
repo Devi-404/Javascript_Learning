@@ -1,58 +1,58 @@
 //Conditional Statements
 
 //if statement
-// let age = 15;
+let age = 15;
 
-// if(age >= 18) {
-//     console.log("You can vote");
-// }
+if(age >= 18) {
+    console.log("You can vote");
+}
 
-// if(age < 18) {
-//     console.log("You cannot vote");
-// }
+if(age < 18) {
+    console.log("You cannot vote");
+}
 
 
 //if-else statement
-// let mode = "dark";
-// let color;
-// 
-// if(mode === "dark") {
-    // color = "black";
-// }
-// else {
-    // color = "white";
-// }
-// console.log(color);
-// 
-// let age = 25;
-// 
-// if(age >= 18) {
-    // console.log("vote");
-// }
-// else {
-    // console.log("Not vote")
-// }
-// 
-// let num = 4;
-// 
-// if(num % 2 === 0) {
-    // console.log("Number is even");
-// }
-// else {
-    // console.log("Number is odd");
-// }
+let mode1 = "dark";
+let color1;
+
+if(mode1 === "dark") {
+    color1 = "black";
+}
+else {
+    color1 = "white";
+}
+console.log(color1);
+
+let age2 = 25;
+
+if(age2 >= 18) {
+    console.log("vote");
+}
+else {
+    console.log("Not vote")
+}
+
+let num = 4;
+
+if(num % 2 === 0) {
+    console.log("Number is even");
+}
+else {
+    console.log("Number is odd");
+}
 
 
 //else-if statement
-// if(age < 18) {
-//     console.log("Junior");
-// }
-// else if (age > 60) {
-//     console.log("Senior");
-// }
-// else {
-//     console.log("Middle");
-// }
+if(age < 18) {
+    console.log("Junior");
+}
+else if (age > 60) {
+    console.log("Senior");
+}
+else {
+    console.log("Middle");
+}
 
 let mode = "dark";
 let color;
@@ -75,19 +75,19 @@ console.log(color);
 
 //Ternary Statement
 
-let age = 25;
+let age1 = 25;
 
-let result = age >= 18 ? "adult" : "not adult";  //simpler, compact if-else
+let result = age1 >= 18 ? "adult" : "not adult";  //simpler, compact if-else
 
 
 //Practice question 1
-// let num = prompt ("Enter a number");
+let num1 = prompt ("Enter a number");
 
-// if(num % 5 === 0) {
-//     console.log(num, "is equal to 5");
-// } else {
-//     console.log("Number is not equal to 5");
-// }
+if(num1 % 5 === 0) {
+    console.log(num1, "is equal to 5");
+} else {
+    console.log("Number is not equal to 5");
+}
 
 
 //Practice question 2
